@@ -1,0 +1,13 @@
+# Archivo de configuración para la aplicación
+minio:
+  endpoint: "localhost:9000"
+  access_key: "admin"
+  secret_key: "admin1234"
+  secure: false
+
+logging:
+  level: "INFO"
+  format: "<green>{time}</green> | <level>{level}</level> | <cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> - <level>{message}</level>"
+  file: "app.log"
+  rotation: "10 MB"
+  retention: "7 days"

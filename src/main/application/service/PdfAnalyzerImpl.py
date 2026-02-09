@@ -1,8 +1,12 @@
+import os
+from pathlib import Path
+
 import fitz
 
 from src.main.domain.service.pdf.PdfAnalizerPort import PdfAnalizerPort
 from loguru import logger
 import re
+
 
 class PdfAnalyzerImpl(PdfAnalizerPort):
 
@@ -20,15 +24,25 @@ class PdfAnalyzerImpl(PdfAnalizerPort):
 
     def analyze_header(self, file_name: str, file_bytes: bytes) -> None:
         logger.info(f"Analyzing header of file {file_name}")
-        regex_stats = r"(?:CL.*TERRENO|CLTh1A).*?[:\\]\s*(.*?)\n(?:FREC.*|FREClJE).*?[:\\]\s*(.*?)\n(?:ORG.*|ORGANIZACIÓN).*?[:\\]\s*(.*)"
+        regex_first_paragraph = r"^([^\n]+)"
         with fitz.open(stream=file_bytes, filetype="pdf") as doc:
-            for i in range(min(len(doc), len(doc))):
+            for i in range(5, len(doc)):
                 page = doc.load_page(i)
                 text = page.get_text().strip()
                 if len(text) > 100:
-                    match = re.search(regex_stats, text, re.IGNORECASE | re.MULTILINE)
+                    match = re.search(regex_first_paragraph, text, re.MULTILINE)
                     if match:
                         nombre = match.group(1)
-                        logger.info(f"Nombre detectado en página {i + 1}: {nombre}")
+                        logger.info(f"Primer párrafo detectado en página {i + 1}: {nombre}")
                     else:
-                        logger.info(f"No se encontró el patrón en página {i + 1}")
+                        logger.info(f"No se encontró un párrafo en página {i + 1}")
+
+    def split_in_jpg(self, file_data: bytes, bucket_name: str, file_name: str):
+        home = Path.home()
+        path = home / "pdf_split" / bucket_name / file_name.split(".")[0]
+        os.makedirs(path, exist_ok=True)  # Cambiado para crear directorios anidados y evitar error si ya existe
+        with fitz.open(stream=file_data, filetype="pdf") as doc:
+            for i in range(len(doc)):
+                page = doc.load_page(i)
+                pix = page.get_pixmap()
+                pix.writePNG(f"{path}/page-{i}.jpg")

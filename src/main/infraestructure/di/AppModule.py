@@ -3,7 +3,7 @@ from injector import Module, singleton, provider
 from src.main.application.service.PdfAnalyzerImpl import PdfAnalyzerImpl
 from src.main.domain.service.pdf.PdfAnalizerPort import PdfAnalizerPort
 from src.main.infraestructure.storage.FileStorageImpl import FileStorageImpl
-from src.main.application.service.FileService import FileService
+from src.main.application.service.FileApplicationServiceImpl import FileService
 
 class AppModule(Module):
     def __init__(self, minio_conf):
@@ -26,5 +26,5 @@ class AppModule(Module):
 
     @singleton
     @provider
-    def provide_file_service(self, storage: FileStorageImpl) -> FileService:
-        return FileService(storage)
+    def provide_file_service(self, storage: FileStorageImpl, pdf_analyzer: PdfAnalyzerImpl) -> FileService:
+        return FileService(storage, pdf_analyzer)

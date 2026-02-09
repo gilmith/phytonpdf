@@ -12,3 +12,8 @@ class FileStoragePort(ABC):
     def insertData(self, bucket_name, file_name):
         """:return insert data from file in bucket"""
         pass
+
+    @abstractmethod
+    def get_file(self, bucket_name, file_name):
+        """:return file from bucket"""
+        pass

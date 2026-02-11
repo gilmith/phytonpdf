@@ -2,6 +2,7 @@ from injector import inject
 from minio import Minio, S3Error
 from loguru import logger
 from minio.datatypes import Object
+import fitz
 
 from src.main.domain.model.FileInfo.FileInfoDom import FileInfoDom
 from src.main.domain.model.enum.FileUnit import FileUnit
@@ -35,32 +36,13 @@ class FileStorageImpl(FileStoragePort):
             logger.error(e)
             raise
 
-    def get_file(self, bucket_name, file_name):
-        file_full = self.client.get_object(bucket_name, file_name)
-        data = file_full.read()
-        doc = fitz.open(stream=data, filetype="pdf")
-        images = []
-
-        for page_num in range(len(doc)):
-            page = doc.load_page(page_num)
-
-            # 2. Renderizar la página a una imagen (pixmap)
-            # alpha=False elimina transparencias para evitar fondos negros
-            pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), alpha=False)
-
-            # 3. Convertir a formato que puedas manipular o guardar
-            img_data = pix.tobytes("png")
-
-            # Opcional: Si quieres trabajar con la imagen en memoria (Pillow)
-            # img = Image.open(io.BytesIO(img_data))
-
-            images.append({
-                "page": page_num + 1,
-                "bytes": img_data
-            })
-
-        doc.close()
-        return images
+    def get_file(self, bucket_name, file_name) -> bytes:
+        try:
+            file_full = self.client.get_object(bucket_name, file_name)
+            return file_full.read()
+        except S3Error as e:
+            logger.error(e)
+            raise
 
 
     def _analize_file(self, bucket_name: str, file: Object) -> bool:

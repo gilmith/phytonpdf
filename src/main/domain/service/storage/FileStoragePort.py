@@ -14,6 +14,6 @@ class FileStoragePort(ABC):
         pass
 
     @abstractmethod
-    def get_file(self, bucket_name, file_name):
+    def get_file(self, bucket_name, file_name) -> bytes:
         """:return file from bucket"""
         pass

@@ -37,12 +37,13 @@ class PdfAnalyzerImpl(PdfAnalizerPort):
                     else:
                         logger.info(f"No se encontró un párrafo en página {i + 1}")
 
-    def split_in_jpg(self, file_data: bytes, bucket_name: str, file_name: str):
+    def split_in_jpg(self, file_data: bytes, bucket_name: str, file_name: str, zoom: int = 3):
         home = Path.home()
         path = home / "pdf_split" / bucket_name / file_name.split(".")[0]
-        os.makedirs(path, exist_ok=True)  # Cambiado para crear directorios anidados y evitar error si ya existe
+        os.makedirs(path, exist_ok=True)
         with fitz.open(stream=file_data, filetype="pdf") as doc:
+            matrix = fitz.Matrix(zoom, zoom)
             for i in range(len(doc)):
                 page = doc.load_page(i)
-                pix = page.get_pixmap()
-                pix.writePNG(f"{path}/page-{i}.jpg")
+                pix = page.get_pixmap(matrix=matrix)
+                pix.save(f"{path}/page-{i}.jpg", "jpeg", 100)

@@ -1,0 +1,652 @@
+2026-02-07T20:13:22.100482+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T20:13:22.102485+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T20:13:25.526466+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:list_monster_files:14 - Getting files from bucket monstrouscompendium
+2026-02-07T20:14:27.541161+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T20:14:27.543161+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T20:14:34.488551+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:list_monster_files:14 - Getting files from bucket monstrouscompendium
+2026-02-07T20:26:56.629674+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T20:26:56.708756+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T20:27:00.113845+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:list_monster_files:14 - Getting files from bucket monstrouscompendium
+2026-02-07T20:29:27.404978+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T20:29:27.408978+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T20:29:30.739482+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:list_monster_files:14 - Getting files from bucket monstrouscompendium
+2026-02-07T20:29:59.615549+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T20:29:59.620018+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T20:30:00.860609+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:list_monster_files:14 - Getting files from bucket monstrouscompendium
+2026-02-07T20:30:00.884181+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:list_monster_files:19 - Object of type FileUnit is not JSON serializable
+2026-02-07T20:31:06.583521+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T20:31:06.585520+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T20:31:09.833058+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:list_monster_files:14 - Getting files from bucket monstrouscompendium
+2026-02-07T21:01:19.186673+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T21:01:19.189486+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T21:01:28.638359+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T21:01:28.643236+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T21:04:35.403828+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T21:04:35.409517+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T21:04:40.299113+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:list_monster_files:14 - Getting files from bucket monstrouscompendium
+2026-02-07T21:04:45.838857+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:has_ocr:9 - Analyzing file 248046706-AD-D-Compendio-de-Monstruos-Vol-IV-Reinos-Olvidados.pdf
+2026-02-07T21:05:21.981154+0100 | WARNING | src.main.application.service.PdfAnalyzerImpl:has_ocr:17 - no text detected.
+2026-02-07T21:05:25.157822+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:has_ocr:9 - Analyzing file 276054797-AD-D-2-0-Compendio-de-Monstruos-Vol-I.pdf
+2026-02-07T21:08:47.591833+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T21:08:47.597936+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T21:08:52.270475+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:list_monster_files:14 - Getting files from bucket monstrouscompendium
+2026-02-07T21:08:55.886409+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:has_ocr:9 - Analyzing file 248046706-AD-D-Compendio-de-Monstruos-Vol-IV-Reinos-Olvidados.pdf
+2026-02-07T21:08:57.545781+0100 | WARNING | src.main.application.service.PdfAnalyzerImpl:has_ocr:17 - no text detected.
+2026-02-07T21:08:57.809523+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:has_ocr:9 - Analyzing file 276054797-AD-D-2-0-Compendio-de-Monstruos-Vol-I.pdf
+2026-02-07T21:08:57.813522+0100 | WARNING | src.main.application.service.PdfAnalyzerImpl:has_ocr:17 - no text detected.
+2026-02-07T21:08:58.203082+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:has_ocr:9 - Analyzing file 372355967-AD-D-Ravenloft-Compendio-de-Monstruos.pdf
+2026-02-07T21:08:58.206087+0100 | WARNING | src.main.application.service.PdfAnalyzerImpl:has_ocr:17 - no text detected.
+2026-02-07T21:08:58.871450+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:has_ocr:9 - Analyzing file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-07T21:08:58.898076+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:has_ocr:15 - Text detected 1
+2026-02-07T21:08:59.578543+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:has_ocr:9 - Analyzing file D&D - 2.0 - EZ - DragonLance - Compendio de Monstruos Dragonlance - Volumen Dos [EZ206].pdf
+2026-02-07T21:08:59.585066+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:has_ocr:15 - Text detected 1
+2026-02-07T21:33:01.623471+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T21:33:01.630560+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T21:33:39.838282+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-07T21:34:22.459325+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T21:34:22.464937+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T21:34:25.064324+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-07T21:34:27.021490+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:insert_file:30 - name 'file' is not defined
+2026-02-07T21:34:42.173435+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-07T21:35:25.678172+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:insert_file:30 - name 'file' is not defined
+2026-02-07T21:35:54.174235+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T21:35:54.184545+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T21:35:56.264439+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-07T21:36:06.890019+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:21 - Analyzing header of file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-07T21:36:22.901293+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:27 - Text detected 1
+2026-02-07T21:36:40.130066+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:27 - Text detected 2
+2026-02-07T21:36:42.197636+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:27 - Text detected 3
+2026-02-07T21:36:44.236998+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:27 - Text detected 4
+2026-02-07T21:36:46.203878+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:27 - Text detected 5
+2026-02-07T21:36:47.598969+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:27 - Text detected 6
+2026-02-07T21:39:16.793060+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T21:39:16.800567+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T21:39:33.353278+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-07T21:39:37.283440+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:22 - Analyzing header of file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-07T21:39:37.291547+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 1
+2026-02-07T21:39:37.355011+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 2
+2026-02-07T21:39:37.398260+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 3
+2026-02-07T21:39:37.439714+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 4
+2026-02-07T21:39:37.470527+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 5
+2026-02-07T21:39:37.515296+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 6
+2026-02-07T21:39:37.550638+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 7
+2026-02-07T21:39:37.622906+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 8
+2026-02-07T21:39:37.647808+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 9
+2026-02-07T21:39:37.690628+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 10
+2026-02-07T21:39:37.720036+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 11
+2026-02-07T21:39:37.766277+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 12
+2026-02-07T21:39:37.805292+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 13
+2026-02-07T21:39:37.851398+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 14
+2026-02-07T21:39:37.895349+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 15
+2026-02-07T21:39:37.940725+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 16
+2026-02-07T21:39:37.979961+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 17
+2026-02-07T21:39:38.026804+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 18
+2026-02-07T21:39:38.074507+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 19
+2026-02-07T21:39:38.129202+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 20
+2026-02-07T21:39:38.185085+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 21
+2026-02-07T21:39:38.221212+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 22
+2026-02-07T21:39:38.262885+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 23
+2026-02-07T21:39:38.311151+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 24
+2026-02-07T21:39:38.351192+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 25
+2026-02-07T21:39:38.396081+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 26
+2026-02-07T21:39:38.434059+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 27
+2026-02-07T21:39:38.456877+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 28
+2026-02-07T21:39:38.478003+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 29
+2026-02-07T21:39:38.510340+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 30
+2026-02-07T21:39:38.559893+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 31
+2026-02-07T21:39:38.580075+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 32
+2026-02-07T21:39:38.606245+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 33
+2026-02-07T21:39:38.645203+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 34
+2026-02-07T21:39:38.679780+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 35
+2026-02-07T21:39:38.710217+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 36
+2026-02-07T21:39:38.747172+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 37
+2026-02-07T21:39:38.773032+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 38
+2026-02-07T21:39:38.795664+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 39
+2026-02-07T21:39:38.839688+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 40
+2026-02-07T21:39:38.889212+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 41
+2026-02-07T21:39:38.931075+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 42
+2026-02-07T21:39:38.959504+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 43
+2026-02-07T21:39:38.983907+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 44
+2026-02-07T21:39:39.006305+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 45
+2026-02-07T21:39:39.033808+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 46
+2026-02-07T21:39:39.069736+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 47
+2026-02-07T21:39:39.111036+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 48
+2026-02-07T21:39:39.155579+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 49
+2026-02-07T21:39:39.186577+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 50
+2026-02-07T21:39:39.230419+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 51
+2026-02-07T21:39:39.263794+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 52
+2026-02-07T21:39:39.284653+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 53
+2026-02-07T21:39:39.304669+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 54
+2026-02-07T21:39:39.348126+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 55
+2026-02-07T21:39:39.394019+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 56
+2026-02-07T21:39:39.436893+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 57
+2026-02-07T21:39:39.480018+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 58
+2026-02-07T21:39:39.523639+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 59
+2026-02-07T21:39:39.559157+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 60
+2026-02-07T21:39:39.580309+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 61
+2026-02-07T21:39:39.611374+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 62
+2026-02-07T21:39:39.652292+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 63
+2026-02-07T21:39:39.713785+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 64
+2026-02-07T21:39:39.744765+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 65
+2026-02-07T21:39:39.780411+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 66
+2026-02-07T21:39:39.817146+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 67
+2026-02-07T21:39:39.864316+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 68
+2026-02-07T21:39:39.914205+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 69
+2026-02-07T21:39:39.957662+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 70
+2026-02-07T21:39:40.004356+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 71
+2026-02-07T21:39:40.055058+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 72
+2026-02-07T21:39:40.106598+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 73
+2026-02-07T21:39:40.144509+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 74
+2026-02-07T21:39:40.183092+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 75
+2026-02-07T21:39:40.234587+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 76
+2026-02-07T21:39:40.294105+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 77
+2026-02-07T21:39:40.323739+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 78
+2026-02-07T21:39:40.367647+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 79
+2026-02-07T21:39:40.406709+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 80
+2026-02-07T21:39:40.457784+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 81
+2026-02-07T21:39:40.488524+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 82
+2026-02-07T21:39:40.526335+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 83
+2026-02-07T21:39:40.551732+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 84
+2026-02-07T21:39:40.604625+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 85
+2026-02-07T21:39:40.624646+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 86
+2026-02-07T21:39:40.663708+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 87
+2026-02-07T21:39:40.694488+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 88
+2026-02-07T21:39:40.714327+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 89
+2026-02-07T21:39:40.754527+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 90
+2026-02-07T21:39:40.794351+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 91
+2026-02-07T21:39:40.834947+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 92
+2026-02-07T21:39:40.856256+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 93
+2026-02-07T21:39:40.905934+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 94
+2026-02-07T21:39:40.954755+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 95
+2026-02-07T21:39:41.006280+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 96
+2026-02-07T21:39:41.046995+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 97
+2026-02-07T21:41:02.045215+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-07T21:41:02.592931+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:22 - Analyzing header of file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-07T21:41:09.257950+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 1
+2026-02-07T21:41:11.083814+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 2
+2026-02-07T21:41:12.831014+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 3
+2026-02-07T21:41:14.674098+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 4
+2026-02-07T21:41:16.458457+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:33 - No se encontró el patrón en página 5
+2026-02-07T21:44:04.341410+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T21:44:04.349979+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T21:44:06.673954+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-07T21:44:07.148719+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:22 - Analyzing header of file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-07T21:44:13.841649+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 1
+2026-02-07T21:44:14.693801+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 2
+2026-02-07T21:44:15.482234+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 3
+2026-02-07T21:44:16.021233+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 4
+2026-02-07T21:44:17.952298+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 5
+2026-02-07T21:44:22.868452+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 6: 
+2026-02-07T21:44:25.803880+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 7
+2026-02-07T21:44:29.433871+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 8
+2026-02-07T21:44:35.708968+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 9
+2026-02-07T21:44:36.579776+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 10
+2026-02-07T21:44:37.549357+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 11
+2026-02-07T21:44:38.331162+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 12
+2026-02-07T21:44:38.433903+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 13
+2026-02-07T21:44:43.383340+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 14
+2026-02-07T21:44:44.180270+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 15
+2026-02-07T21:44:44.644735+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 16
+2026-02-07T21:44:45.430502+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 17
+2026-02-07T21:45:06.233441+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-07T21:45:06.239973+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-07T21:45:08.962697+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-07T21:45:09.497103+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:22 - Analyzing header of file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-07T21:45:13.262050+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 1
+2026-02-07T21:45:20.807862+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 2
+2026-02-07T21:45:22.221168+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 3
+2026-02-07T21:45:23.684721+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 4
+2026-02-07T21:45:24.854695+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 5
+2026-02-07T21:45:43.033888+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 6: 
+2026-02-08T12:13:36.549914+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-08T12:13:36.560012+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-08T12:14:31.661416+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-08T12:14:32.489097+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:22 - Analyzing header of file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-08T12:14:41.606367+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 1
+2026-02-08T12:14:45.094537+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 2
+2026-02-08T12:14:47.981220+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 3
+2026-02-08T12:14:51.215803+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 4
+2026-02-08T12:14:54.032906+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 5
+2026-02-08T12:15:00.419279+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 6: 
+2026-02-08T12:15:04.904797+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 7
+2026-02-08T12:15:13.644989+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 8
+2026-02-08T12:16:29.918989+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 9
+2026-02-08T12:21:41.895977+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-08T12:21:41.903124+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-08T12:21:55.256976+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-08T12:21:55.836875+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:22 - Analyzing header of file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-08T12:21:55.892008+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 6: FREClJE. Ch\: 
+2026-02-08T12:21:55.927708+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 7
+2026-02-08T12:21:55.999305+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 8
+2026-02-08T12:21:56.021793+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 9
+2026-02-08T12:21:56.064902+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 10
+2026-02-08T12:21:56.094542+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 11
+2026-02-08T12:21:56.136507+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 12
+2026-02-08T12:21:56.173677+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 13
+2026-02-08T12:21:56.218074+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 14
+2026-02-08T12:21:56.261437+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 15
+2026-02-08T12:21:56.303970+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 16
+2026-02-08T12:21:56.343050+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 17
+2026-02-08T12:21:56.389338+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 18
+2026-02-08T12:21:56.435944+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 19
+2026-02-08T12:21:56.486351+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 20
+2026-02-08T12:21:56.540820+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 21
+2026-02-08T12:21:56.576590+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 22
+2026-02-08T12:21:56.617635+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 23: NÚM. APARICIÓN:
+2026-02-08T12:21:56.663603+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 24: NÚM. APARICIÓN:
+2026-02-08T12:21:56.702037+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 25: Cualquiera, pero normalmente tropi­
+2026-02-08T12:21:56.742456+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 26
+2026-02-08T12:21:56.779251+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 27
+2026-02-08T12:21:56.801639+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 28
+2026-02-08T12:21:56.822777+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 29
+2026-02-08T12:21:56.853181+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 30
+2026-02-08T12:21:56.900788+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 31
+2026-02-08T12:21:56.919760+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 32
+2026-02-08T12:21:56.944881+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 33
+2026-02-08T12:21:56.981367+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 34
+2026-02-08T12:21:57.015602+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 35
+2026-02-08T12:21:57.044962+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 36
+2026-02-08T12:21:57.082576+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 37
+2026-02-08T12:21:57.107188+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 38: Tropical, subtropical y templado/Subte-
+2026-02-08T12:21:57.130596+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 39
+2026-02-08T12:21:57.172564+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 40: INTELIGENCIA: 
+2026-02-08T12:21:57.219995+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 41
+2026-02-08T12:21:57.260161+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 42
+2026-02-08T12:21:57.287782+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 43
+2026-02-08T12:21:57.315520+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 44
+2026-02-08T12:21:57.337154+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 45: FRECUENCIA: 
+2026-02-08T12:21:57.363996+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 46: FRECUENCIA: 
+2026-02-08T12:21:57.398362+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 47
+2026-02-08T12:21:57.437502+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 48
+2026-02-08T12:21:57.483102+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 49
+2026-02-08T12:21:57.516645+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 50
+2026-02-08T12:21:57.554508+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 51
+2026-02-08T12:21:57.587001+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 52
+2026-02-08T12:21:57.606230+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 53
+2026-02-08T12:21:57.623276+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 54
+2026-02-08T12:21:57.668557+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 55
+2026-02-08T12:21:57.714118+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 56
+2026-02-08T12:21:57.751363+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 57
+2026-02-08T12:21:57.792949+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 58
+2026-02-08T12:21:57.836376+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 59
+2026-02-08T12:21:57.872814+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 60
+2026-02-08T12:21:57.892139+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 61
+2026-02-08T12:21:57.921131+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 62
+2026-02-08T12:21:57.960204+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 63
+2026-02-08T12:21:58.003372+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 64
+2026-02-08T12:21:58.034383+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 65
+2026-02-08T12:21:58.060822+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 66
+2026-02-08T12:21:58.104906+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 67
+2026-02-08T12:21:58.150030+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 68
+2026-02-08T12:21:58.200004+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 69: ALINEAJWIENTO: 
+2026-02-08T12:21:58.240998+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 70: Tropical, subtropical y templado/Llanuras, pantanos, 
+2026-02-08T12:21:58.289158+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 71
+2026-02-08T12:21:58.334797+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 72: TA: 
+2026-02-08T12:21:58.379351+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 73
+2026-02-08T12:21:58.410950+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 74
+2026-02-08T12:21:58.449965+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 75
+2026-02-08T12:21:58.500571+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 76
+2026-02-08T12:21:58.560457+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 77
+2026-02-08T12:21:58.592758+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 78
+2026-02-08T12:21:58.630834+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 79
+2026-02-08T12:21:58.669311+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 80
+2026-02-08T12:21:58.720151+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 81
+2026-02-08T12:21:58.749349+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 82
+2026-02-08T12:21:58.781347+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 83
+2026-02-08T12:21:58.804510+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 84
+2026-02-08T12:21:58.857971+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 85
+2026-02-08T12:21:58.873302+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 86
+2026-02-08T12:21:58.910658+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 87
+2026-02-08T12:21:58.940009+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 88
+2026-02-08T12:21:58.961001+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 89
+2026-02-08T12:21:59.000049+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 90
+2026-02-08T12:21:59.042033+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Nombre detectado en página 91: FRECUENCIA: 
+2026-02-08T12:21:59.080540+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 92
+2026-02-08T12:21:59.100940+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 93
+2026-02-08T12:21:59.154449+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 94
+2026-02-08T12:21:59.200687+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 95
+2026-02-08T12:21:59.251407+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 96
+2026-02-08T12:21:59.287639+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:34 - No se encontró el patrón en página 97
+2026-02-08T12:22:40.060471+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-08T12:22:40.070628+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-08T12:22:58.845010+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-08T12:22:59.382518+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:22 - Analyzing header of file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-08T12:22:59.438961+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 6: Anémona gigante 
+2026-02-08T12:22:59.481021+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 7: Aparecido onírico 
+2026-02-08T12:22:59.562432+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 8: Aparecido onírico 
+2026-02-08T12:22:59.590133+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 9: Aparición 
+2026-02-08T12:22:59.641384+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 10: Araña (de Krynn) 
+2026-02-08T12:22:59.673952+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 11: Aves 
+2026-02-08T12:22:59.717553+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 12: Bestia muerta viviente 
+2026-02-08T12:22:59.757268+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 13: Caballero de la muerte 
+2026-02-08T12:22:59.807732+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 14: Caballero hechizado 
+2026-02-08T12:22:59.855825+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 15: Centauro (de Krynn) 
+2026-02-08T12:22:59.902919+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 16: Centauro (de Krynn) 
+2026-02-08T12:22:59.945859+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 17: Ciervo 
+2026-02-08T12:22:59.997207+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 18: Dislr 
+2026-02-08T12:23:00.050557+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 19: Draconiano (proto-), Traag 
+2026-02-08T12:23:00.102104+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 20: Draconianos 
+2026-02-08T12:23:00.156728+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 21: Draconiano, aurak 
+2026-02-08T12:23:00.195167+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 22: Draconiano, baaz
+2026-02-08T12:23:00.237916+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 23: Draconiano, bozak 
+2026-02-08T12:23:00.287137+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 24: Draconiano, kapak 
+2026-02-08T12:23:00.326375+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 25: Draconiano, sivak 
+2026-02-08T12:23:00.367890+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 26: Dragones de Krynn 
+2026-02-08T12:23:00.404191+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 27: Dragones de Krynn 
+2026-02-08T12:23:00.425356+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 28: Dragón, anti 
+2026-02-08T12:23:00.447335+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 29: Dragón, astral 
+2026-02-08T12:23:00.479085+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 30: Dragón, kodragón 
+2026-02-08T12:23:00.529039+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 31: Dragón marino 
+2026-02-08T12:23:00.549471+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 32: Dragón, othlorx 
+2026-02-08T12:23:00.575301+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 33: Elfo alto - qualinesti 
+2026-02-08T12:23:00.614380+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 34: Elfo marino - dlmernesti 
+2026-02-08T12:23:00.647739+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 35: Elfo salvaje - kagonestl 
+2026-02-08T12:23:00.676224+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 36: Elfo alto - sllvanesti 
+2026-02-08T12:23:00.711102+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 37: Elfo marino - dargonesti 
+2026-02-08T12:23:00.737437+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 38: Enano, daergar 
+2026-02-08T12:23:00.760846+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 39: ® 
+2026-02-08T12:23:00.802117+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 40: ® 
+2026-02-08T12:23:00.849299+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 41: ® 
+2026-02-08T12:23:00.888401+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 42: Enano, tbeiwar 
+2026-02-08T12:23:00.915767+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 43: Enano, zakhar 
+2026-02-08T12:23:00.939224+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 44: Enjambre de Insectos 
+2026-02-08T12:23:00.959079+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 45: Esbirro de fuego 
+2026-02-08T12:23:00.986415+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 46: Esbirro espectral 
+2026-02-08T12:23:01.021360+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 47: Esbirro espectral 
+2026-02-08T12:23:01.060368+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 48: Esqueleto luchador 
+2026-02-08T12:23:01.103663+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 49: faetón 
+2026-02-08T12:23:01.136144+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 50: Faetón 
+2026-02-08T12:23:01.173606+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 51: ® 
+2026-02-08T12:23:01.204580+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 52: ® 
+2026-02-08T12:23:01.224405+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 53: Gurik cha' ahl 
+2026-02-08T12:23:01.242637+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 54: Hatorl 
+2026-02-08T12:23:01.286622+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 55: Hierba rielante 
+2026-02-08T12:23:01.331634+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 56: ® 
+2026-02-08T12:23:01.369383+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 57: Hombre (de Krynn) 
+2026-02-08T12:23:01.411400+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 58: Hombre (de Krynn) 
+2026-02-08T12:23:01.893198+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 59: Hombre (de Krynn) 
+2026-02-08T12:23:01.929140+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 60: Hombre lagarto {de Krynn) 
+2026-02-08T12:23:01.947911+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 61: Hombre lagarto (de Krynn) 
+2026-02-08T12:23:01.977963+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 62: Horax 
+2026-02-08T12:23:02.016197+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 63: ® 
+2026-02-08T12:23:02.054593+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 64: Kender 
+2026-02-08T12:23:02.086840+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 65: Kender 
+2026-02-08T12:23:02.120757+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 66: Kyrie 
+2026-02-08T12:23:02.160045+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 67: Minotauro (de Krynn) 
+2026-02-08T12:23:02.200174+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 68: Minotauro (de Krynn) 
+2026-02-08T12:23:02.251169+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 69: Muñeco kani 
+2026-02-08T12:23:02.294561+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 70: ® 
+2026-02-08T12:23:02.343537+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 71: Ogro (de Krynn) 
+2026-02-08T12:23:02.391504+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 72: Ogro alto (lrda) 
+2026-02-08T12:23:02.430552+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 73: Ogro alto {lrda) 
+2026-02-08T12:23:02.460569+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 74: Ojo ala 
+2026-02-08T12:23:02.501191+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 75: Oso de los hielos 
+2026-02-08T12:23:02.551860+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 76: Personasombra 
+2026-02-08T12:23:02.619219+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 77: Personasombra 
+2026-02-08T12:23:02.650271+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 78: Pseudoyeti, saqualamlnoi 
+2026-02-08T12:23:02.687419+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 79: Semielfo 
+2026-02-08T12:23:02.722223+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 80: Skrit 
+2026-02-08T12:23:02.771199+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 81: Slig 
+2026-02-08T12:23:02.801478+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 82: Slig 
+2026-02-08T12:23:02.832282+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 83: Sombra de fuego 
+2026-02-08T12:23:02.860564+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 84: Sombra de sueño 
+2026-02-08T12:23:02.910913+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 85: Tayling 
+2026-02-08T12:23:02.930652+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 86: Tayling 
+2026-02-08T12:23:02.967248+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 87: Thanoi (Hombre morsa) 
+2026-02-08T12:23:02.990573+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 88: Thanoi {Hombre morsa) 
+2026-02-08T12:23:03.010888+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 89: Trasgo del Mar de Sangre 
+2026-02-08T12:23:03.052328+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 90: Tylor 
+2026-02-08T12:23:03.091857+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 91: Wichtlin 
+2026-02-08T12:23:03.133839+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 92: Wyndlass 
+2026-02-08T12:23:03.150390+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 93: Yaggol 
+2026-02-08T12:23:03.206917+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 94: Encuentros templados 
+2026-02-08T12:23:03.250517+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 95: Marismas o pantanos subárticos 
+2026-02-08T12:23:03.305881+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 96: Superficie de aguas tropicales-' 
+2026-02-08T12:23:03.342220+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:32 - Primer párrafo detectado en página 97: ® 
+2026-02-09T22:18:45.171547+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-09T22:19:55.936575+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-09T22:24:20.742275+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-09T22:24:20.749310+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-09T22:25:39.249303+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:26:09.693184+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - HTTPConnectionPool(host='localhost', port=9000): Max retries exceeded with url: /monstrouscompendium?location= (Caused by NewConnectionError("HTTPConnection(host='localhost', port=9000): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión"))
+2026-02-09T22:27:08.662842+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:27:09.449755+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - name 'fitz' is not defined
+2026-02-09T22:29:28.021949+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-09T22:29:28.029027+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-09T22:29:34.377827+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:29:34.904006+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - name 'fitz' is not defined
+2026-02-09T22:30:23.807068+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:30:24.352914+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - name 'fitz' is not defined
+2026-02-09T22:31:27.820403+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-09T22:31:27.827388+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-09T22:31:30.960626+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:31:31.531777+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - name 'fitz' is not defined
+2026-02-09T22:31:39.673282+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:31:40.179759+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:26 - Analyzing header of file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-09T22:31:40.296568+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 6: Anémona gigante 
+2026-02-09T22:31:40.335027+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 7: Aparecido onírico 
+2026-02-09T22:31:40.416552+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 8: Aparecido onírico 
+2026-02-09T22:31:40.445444+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 9: Aparición 
+2026-02-09T22:31:40.491393+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 10: Araña (de Krynn) 
+2026-02-09T22:31:40.521887+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 11: Aves 
+2026-02-09T22:31:40.565522+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 12: Bestia muerta viviente 
+2026-02-09T22:31:40.605554+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 13: Caballero de la muerte 
+2026-02-09T22:31:40.658769+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 14: Caballero hechizado 
+2026-02-09T22:31:40.707167+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 15: Centauro (de Krynn) 
+2026-02-09T22:31:40.753264+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 16: Centauro (de Krynn) 
+2026-02-09T22:31:40.795590+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 17: Ciervo 
+2026-02-09T22:31:40.844075+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 18: Dislr 
+2026-02-09T22:31:40.900271+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 19: Draconiano (proto-), Traag 
+2026-02-09T22:31:40.958612+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 20: Draconianos 
+2026-02-09T22:31:41.022416+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 21: Draconiano, aurak 
+2026-02-09T22:31:41.063541+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 22: Draconiano, baaz
+2026-02-09T22:31:41.110932+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 23: Draconiano, bozak 
+2026-02-09T22:31:41.163875+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 24: Draconiano, kapak 
+2026-02-09T22:31:41.203168+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 25: Draconiano, sivak 
+2026-02-09T22:31:41.245217+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 26: Dragones de Krynn 
+2026-02-09T22:31:41.282126+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 27: Dragones de Krynn 
+2026-02-09T22:31:41.304942+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 28: Dragón, anti 
+2026-02-09T22:31:41.326120+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 29: Dragón, astral 
+2026-02-09T22:31:41.357196+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 30: Dragón, kodragón 
+2026-02-09T22:31:41.418776+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 31: Dragón marino 
+2026-02-09T22:31:41.440359+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 32: Dragón, othlorx 
+2026-02-09T22:31:41.469306+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 33: Elfo alto - qualinesti 
+2026-02-09T22:31:41.507822+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 34: Elfo marino - dlmernesti 
+2026-02-09T22:31:41.542509+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 35: Elfo salvaje - kagonestl 
+2026-02-09T22:31:41.571308+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 36: Elfo alto - sllvanesti 
+2026-02-09T22:31:41.607142+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 37: Elfo marino - dargonesti 
+2026-02-09T22:31:41.638426+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 38: Enano, daergar 
+2026-02-09T22:31:41.663982+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 39: ® 
+2026-02-09T22:31:41.720178+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 40: ® 
+2026-02-09T22:31:41.769719+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 41: ® 
+2026-02-09T22:31:41.812042+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 42: Enano, tbeiwar 
+2026-02-09T22:31:41.839399+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 43: Enano, zakhar 
+2026-02-09T22:31:41.871319+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 44: Enjambre de Insectos 
+2026-02-09T22:31:41.904786+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 45: Esbirro de fuego 
+2026-02-09T22:31:41.935041+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 46: Esbirro espectral 
+2026-02-09T22:31:41.971042+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 47: Esbirro espectral 
+2026-02-09T22:31:42.012138+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 48: Esqueleto luchador 
+2026-02-09T22:31:42.056811+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 49: faetón 
+2026-02-09T22:31:42.101282+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 50: Faetón 
+2026-02-09T22:31:42.145854+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 51: ® 
+2026-02-09T22:31:42.178865+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 52: ® 
+2026-02-09T22:31:42.199379+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 53: Gurik cha' ahl 
+2026-02-09T22:31:42.219707+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 54: Hatorl 
+2026-02-09T22:31:42.264743+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 55: Hierba rielante 
+2026-02-09T22:31:42.314035+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 56: ® 
+2026-02-09T22:31:42.356002+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 57: Hombre (de Krynn) 
+2026-02-09T22:31:42.398605+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 58: Hombre (de Krynn) 
+2026-02-09T22:31:42.443197+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 59: Hombre (de Krynn) 
+2026-02-09T22:31:42.482900+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 60: Hombre lagarto {de Krynn) 
+2026-02-09T22:31:42.501684+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 61: Hombre lagarto (de Krynn) 
+2026-02-09T22:31:42.536687+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 62: Horax 
+2026-02-09T22:31:42.584489+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 63: ® 
+2026-02-09T22:31:42.627671+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 64: Kender 
+2026-02-09T22:31:42.658841+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 65: Kender 
+2026-02-09T22:31:42.691887+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 66: Kyrie 
+2026-02-09T22:31:42.732876+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 67: Minotauro (de Krynn) 
+2026-02-09T22:31:42.793150+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 68: Minotauro (de Krynn) 
+2026-02-09T22:31:42.846354+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 69: Muñeco kani 
+2026-02-09T22:31:42.888538+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 70: ® 
+2026-02-09T22:31:42.938136+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 71: Ogro (de Krynn) 
+2026-02-09T22:31:42.986873+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 72: Ogro alto (lrda) 
+2026-02-09T22:31:43.038963+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 73: Ogro alto {lrda) 
+2026-02-09T22:31:43.072808+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 74: Ojo ala 
+2026-02-09T22:31:43.118658+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 75: Oso de los hielos 
+2026-02-09T22:31:43.180980+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 76: Personasombra 
+2026-02-09T22:31:43.243024+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 77: Personasombra 
+2026-02-09T22:31:43.273860+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 78: Pseudoyeti, saqualamlnoi 
+2026-02-09T22:31:43.315243+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 79: Semielfo 
+2026-02-09T22:31:43.355820+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 80: Skrit 
+2026-02-09T22:31:43.402516+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 81: Slig 
+2026-02-09T22:31:43.434649+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 82: Slig 
+2026-02-09T22:31:43.466598+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 83: Sombra de fuego 
+2026-02-09T22:31:43.492017+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 84: Sombra de sueño 
+2026-02-09T22:31:43.547127+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 85: Tayling 
+2026-02-09T22:31:43.567958+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 86: Tayling 
+2026-02-09T22:31:43.601852+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 87: Thanoi (Hombre morsa) 
+2026-02-09T22:31:43.633181+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 88: Thanoi {Hombre morsa) 
+2026-02-09T22:31:43.652392+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 89: Trasgo del Mar de Sangre 
+2026-02-09T22:31:43.692060+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 90: Tylor 
+2026-02-09T22:31:43.734505+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 91: Wichtlin 
+2026-02-09T22:31:43.774152+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 92: Wyndlass 
+2026-02-09T22:31:43.791275+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 93: Yaggol 
+2026-02-09T22:31:43.845420+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 94: Encuentros templados 
+2026-02-09T22:31:43.891353+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 95: Marismas o pantanos subárticos 
+2026-02-09T22:31:43.941543+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 96: Superficie de aguas tropicales-' 
+2026-02-09T22:31:43.979352+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 97: ® 
+2026-02-09T22:32:23.813478+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-09T22:32:23.820166+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-09T22:32:29.723205+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:insert_file:25 - Inserting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:32:30.255636+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:26 - Analyzing header of file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf
+2026-02-09T22:32:30.309406+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 6: Anémona gigante 
+2026-02-09T22:32:30.346137+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 7: Aparecido onírico 
+2026-02-09T22:32:30.422129+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 8: Aparecido onírico 
+2026-02-09T22:32:30.448036+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 9: Aparición 
+2026-02-09T22:32:30.499077+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 10: Araña (de Krynn) 
+2026-02-09T22:32:30.534329+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 11: Aves 
+2026-02-09T22:32:30.588485+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 12: Bestia muerta viviente 
+2026-02-09T22:32:30.630952+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 13: Caballero de la muerte 
+2026-02-09T22:32:30.678279+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 14: Caballero hechizado 
+2026-02-09T22:32:30.726046+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 15: Centauro (de Krynn) 
+2026-02-09T22:32:30.771281+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 16: Centauro (de Krynn) 
+2026-02-09T22:32:30.812150+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 17: Ciervo 
+2026-02-09T22:32:30.857848+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 18: Dislr 
+2026-02-09T22:32:30.905217+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 19: Draconiano (proto-), Traag 
+2026-02-09T22:32:30.961797+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 20: Draconianos 
+2026-02-09T22:32:31.016978+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 21: Draconiano, aurak 
+2026-02-09T22:32:31.057669+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 22: Draconiano, baaz
+2026-02-09T22:32:31.105606+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 23: Draconiano, bozak 
+2026-02-09T22:32:31.158317+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 24: Draconiano, kapak 
+2026-02-09T22:32:31.200811+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 25: Draconiano, sivak 
+2026-02-09T22:32:31.239409+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 26: Dragones de Krynn 
+2026-02-09T22:32:31.279893+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 27: Dragones de Krynn 
+2026-02-09T22:32:31.302273+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 28: Dragón, anti 
+2026-02-09T22:32:31.324527+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 29: Dragón, astral 
+2026-02-09T22:32:31.355947+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 30: Dragón, kodragón 
+2026-02-09T22:32:31.403975+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 31: Dragón marino 
+2026-02-09T22:32:31.433116+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 32: Dragón, othlorx 
+2026-02-09T22:32:31.459602+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 33: Elfo alto - qualinesti 
+2026-02-09T22:32:31.498192+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 34: Elfo marino - dlmernesti 
+2026-02-09T22:32:31.532785+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 35: Elfo salvaje - kagonestl 
+2026-02-09T22:32:31.560929+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 36: Elfo alto - sllvanesti 
+2026-02-09T22:32:31.598495+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 37: Elfo marino - dargonesti 
+2026-02-09T22:32:31.623523+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 38: Enano, daergar 
+2026-02-09T22:32:31.647641+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 39: ® 
+2026-02-09T22:32:31.706411+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 40: ® 
+2026-02-09T22:32:31.756711+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 41: ® 
+2026-02-09T22:32:31.799105+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 42: Enano, tbeiwar 
+2026-02-09T22:32:31.826248+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 43: Enano, zakhar 
+2026-02-09T22:32:31.851417+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 44: Enjambre de Insectos 
+2026-02-09T22:32:31.875742+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 45: Esbirro de fuego 
+2026-02-09T22:32:31.905180+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 46: Esbirro espectral 
+2026-02-09T22:32:31.941109+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 47: Esbirro espectral 
+2026-02-09T22:32:31.981371+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 48: Esqueleto luchador 
+2026-02-09T22:32:32.026276+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 49: faetón 
+2026-02-09T22:32:32.061268+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 50: Faetón 
+2026-02-09T22:32:32.115988+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 51: ® 
+2026-02-09T22:32:32.154663+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 52: ® 
+2026-02-09T22:32:32.188430+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 53: Gurik cha' ahl 
+2026-02-09T22:32:32.218145+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 54: Hatorl 
+2026-02-09T22:32:32.283234+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 55: Hierba rielante 
+2026-02-09T22:32:32.331596+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 56: ® 
+2026-02-09T22:32:32.390237+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 57: Hombre (de Krynn) 
+2026-02-09T22:32:32.446983+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 58: Hombre (de Krynn) 
+2026-02-09T22:32:32.489858+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 59: Hombre (de Krynn) 
+2026-02-09T22:32:32.527804+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 60: Hombre lagarto {de Krynn) 
+2026-02-09T22:32:32.550179+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 61: Hombre lagarto (de Krynn) 
+2026-02-09T22:32:32.583926+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 62: Horax 
+2026-02-09T22:32:32.622934+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 63: ® 
+2026-02-09T22:32:32.665988+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 64: Kender 
+2026-02-09T22:32:32.697447+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 65: Kender 
+2026-02-09T22:32:32.731181+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 66: Kyrie 
+2026-02-09T22:32:32.772567+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 67: Minotauro (de Krynn) 
+2026-02-09T22:32:32.819999+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 68: Minotauro (de Krynn) 
+2026-02-09T22:32:32.872944+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 69: Muñeco kani 
+2026-02-09T22:32:32.914498+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 70: ® 
+2026-02-09T22:32:32.963689+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 71: Ogro (de Krynn) 
+2026-02-09T22:32:33.015681+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 72: Ogro alto (lrda) 
+2026-02-09T22:32:33.060097+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 73: Ogro alto {lrda) 
+2026-02-09T22:32:33.093177+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 74: Ojo ala 
+2026-02-09T22:32:33.134948+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 75: Oso de los hielos 
+2026-02-09T22:32:33.191887+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 76: Personasombra 
+2026-02-09T22:32:33.270950+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 77: Personasombra 
+2026-02-09T22:32:33.308183+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 78: Pseudoyeti, saqualamlnoi 
+2026-02-09T22:32:33.349010+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 79: Semielfo 
+2026-02-09T22:32:33.388167+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 80: Skrit 
+2026-02-09T22:32:33.440498+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 81: Slig 
+2026-02-09T22:32:33.470625+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 82: Slig 
+2026-02-09T22:32:33.511017+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 83: Sombra de fuego 
+2026-02-09T22:32:33.539304+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 84: Sombra de sueño 
+2026-02-09T22:32:33.595417+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 85: Tayling 
+2026-02-09T22:32:33.617545+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 86: Tayling 
+2026-02-09T22:32:33.653287+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 87: Thanoi (Hombre morsa) 
+2026-02-09T22:32:33.684201+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 88: Thanoi {Hombre morsa) 
+2026-02-09T22:32:33.703463+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 89: Trasgo del Mar de Sangre 
+2026-02-09T22:32:33.743419+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 90: Tylor 
+2026-02-09T22:32:33.788660+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 91: Wichtlin 
+2026-02-09T22:32:33.828304+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 92: Wyndlass 
+2026-02-09T22:32:33.845997+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 93: Yaggol 
+2026-02-09T22:32:33.899420+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 94: Encuentros templados 
+2026-02-09T22:32:33.946409+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 95: Marismas o pantanos subárticos 
+2026-02-09T22:32:34.002735+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 96: Superficie de aguas tropicales-' 
+2026-02-09T22:32:34.039811+0100 | INFO | src.main.application.service.PdfAnalyzerImpl:analyze_header:36 - Primer párrafo detectado en página 97: ® 
+2026-02-09T22:32:36.703831+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:32:37.207877+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - name 'fitz' is not defined
+2026-02-09T22:33:20.800417+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-09T22:33:20.808440+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-09T22:33:29.629414+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:33:30.180627+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - name 'fitz' is not defined
+2026-02-09T22:35:13.442853+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-09T22:35:13.450792+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-09T22:35:22.062825+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:35:22.579149+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - name 'fitz' is not defined
+2026-02-09T22:35:35.296299+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:35:35.819231+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - name 'fitz' is not defined
+2026-02-09T22:36:10.928900+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-09T22:36:10.936427+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-09T22:36:13.369731+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-09T22:36:22.588227+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - name 'fitz' is not defined
+2026-02-10T18:39:43.883370+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-10T18:39:43.895743+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-10T18:39:53.897791+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-10T18:39:57.807509+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - name 'fitz' is not defined
+2026-02-10T18:41:42.377160+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-10T18:41:42.385227+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-10T18:43:10.404766+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-10T18:43:10.412095+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-10T18:44:04.325617+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-10T18:44:59.855598+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - 'Pixmap' object has no attribute 'writePNG'
+2026-02-10T18:46:07.332152+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-10T18:46:07.341645+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-10T18:46:08.555001+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-10T18:47:44.040289+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-10T18:47:44.046105+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-10T18:47:51.985019+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-10T18:47:52.508144+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:split_file:41 - Pixmap.save() got an unexpected keyword argument 'quality'
+2026-02-10T18:48:08.231275+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-10T18:48:08.242991+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-10T18:48:11.242264+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-10T18:49:34.911065+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-10T18:49:34.919750+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-10T18:49:35.211424+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium

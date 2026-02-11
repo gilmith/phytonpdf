@@ -1,0 +1,53 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual Environment
+venv/
+dnd_env/
+ENV/
+env/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Flask
+instance/
+.webassets-cache
+.env
+.flaskenv
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Application specific
+*.log
+app.log
+pdf_split/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json

@@ -51,3 +51,5 @@ pdf_split/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+src/main/resources/dataset

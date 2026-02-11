@@ -650,3 +650,69 @@
 2026-02-10T18:49:34.911065+0100 | INFO | __main__:main:16 - Configuración de logger cargada
 2026-02-10T18:49:34.919750+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
 2026-02-10T18:49:35.211424+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:split_file:36 - Splitting file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-11T19:01:43.879145+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T19:01:43.883181+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T19:41:51.397327+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T19:41:51.400831+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T19:42:28.123542+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T19:42:28.128065+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T19:44:29.457381+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T19:44:29.461468+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:06:42.450597+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:06:42.454415+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:09:51.943556+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:09:51.946654+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:10:54.132296+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:10:54.135310+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:11:44.755871+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:11:44.758941+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:12:10.189880+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:12:10.192882+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:13:18.234669+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:13:18.239187+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:13:24.050822+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:47 - Executing yolo training on file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-11T20:13:24.050822+0100 | INFO | src.main.infraestructure.yolo.YoloDetectorImpl:train:13 - Training yolo detector
+2026-02-11T20:14:30.254287+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:14:30.263881+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:15:03.210160+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:15:03.219291+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:16:12.100733+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:16:12.124665+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:16:46.570804+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:47 - Executing yolo training on file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-11T20:16:46.570804+0100 | INFO | src.main.infraestructure.yolo.YoloDetectorImpl:train:13 - Training yolo detector
+2026-02-11T20:18:17.017856+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:18:17.026390+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:18:35.553849+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:18:35.561533+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:18:37.685714+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:18:37.689224+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:18:42.690535+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:47 - Executing yolo training on file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-11T20:18:42.690535+0100 | INFO | src.main.infraestructure.yolo.YoloDetectorImpl:train:13 - Detecting monsters
+2026-02-11T20:18:44.141462+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:52 - Dataset 'C://Users/jacobo/PycharmProjects/phytonpdf/src/main/resources/dataset/data.yaml' error  Dataset 'C://Users/jacobo/PycharmProjects/phytonpdf/src/main/resources/dataset/data.yaml' images not found, missing path 'C:\Users\jacobo\PycharmProjects\phytonpdf\src\resources\dataset\val\images'
+Note dataset download directory is 'C:\Users\jacobo\PycharmProjects\datasets'. You can update this in 'C:\Users\jacobo\AppData\Roaming\Ultralytics\settings.json'
+2026-02-11T20:20:21.914694+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:47 - Executing yolo training on file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-11T20:20:21.914694+0100 | INFO | src.main.infraestructure.yolo.YoloDetectorImpl:train:13 - Detecting monsters
+2026-02-11T20:20:22.468234+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:52 - Dataset 'C://Users/jacobo/PycharmProjects/phytonpdf/src/main/resources/dataset/data.yaml' error  Dataset 'C://Users/jacobo/PycharmProjects/phytonpdf/src/main/resources/dataset/data.yaml' images not found, missing path 'C:\Users\jacobo\PycharmProjects\phytonpdf\src\resources\dataset\val\images'
+Note dataset download directory is 'C:\Users\jacobo\PycharmProjects\datasets'. You can update this in 'C:\Users\jacobo\AppData\Roaming\Ultralytics\settings.json'
+2026-02-11T20:21:16.473308+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:21:16.477382+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:21:20.455521+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:47 - Executing yolo training on file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-11T20:21:20.455521+0100 | INFO | src.main.infraestructure.yolo.YoloDetectorImpl:train:13 - Detecting monsters
+2026-02-11T20:21:20.995540+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:52 - Dataset 'C://Users/jacobo/PycharmProjects/phytonpdf/src/main/resources/dataset/data.yaml' error  Dataset 'C://Users/jacobo/PycharmProjects/phytonpdf/src/main/resources/dataset/data.yaml' images not found, missing path 'C:\Users\jacobo\PycharmProjects\phytonpdf\src\resources\dataset\val\images'
+Note dataset download directory is 'C:\Users\jacobo\PycharmProjects\datasets'. You can update this in 'C:\Users\jacobo\AppData\Roaming\Ultralytics\settings.json'
+2026-02-11T20:21:35.722714+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:21:35.725732+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:21:43.487673+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:47 - Executing yolo training on file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-11T20:21:43.487673+0100 | INFO | src.main.infraestructure.yolo.YoloDetectorImpl:train:13 - Detecting monsters
+2026-02-11T20:21:44.036248+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:52 - Dataset 'C://Users/jacobo/PycharmProjects/phytonpdf/src/main/resources/dataset/data.yaml' error  C:\Users\jacobo\PycharmProjects\phytonpdf\src\main\resources\dataset\data.yaml 'val:' key missing .
+'train' and 'val' are required in all data YAMLs.
+2026-02-11T20:22:01.659201+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:22:01.662705+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:22:06.773137+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:47 - Executing yolo training on file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-11T20:22:06.774135+0100 | INFO | src.main.infraestructure.yolo.YoloDetectorImpl:train:13 - Detecting monsters
+2026-02-11T20:22:07.236763+0100 | ERROR | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:52 - Dataset 'C://Users/jacobo/PycharmProjects/phytonpdf/src/main/resources/dataset/data.yaml' error  Dataset 'C://Users/jacobo/PycharmProjects/phytonpdf/src/main/resources/dataset/data.yaml' images not found, missing path 'C:\Users\jacobo\PycharmProjects\phytonpdf\src\resources\dataset\val\images'
+Note dataset download directory is 'C:\Users\jacobo\PycharmProjects\datasets'. You can update this in 'C:\Users\jacobo\AppData\Roaming\Ultralytics\settings.json'
+2026-02-11T20:22:46.438760+0100 | INFO | __main__:main:16 - Configuración de logger cargada
+2026-02-11T20:22:46.442757+0100 | INFO | __main__:main:20 - Aplicación Flask iniciada
+2026-02-11T20:22:52.926452+0100 | INFO | src.main.infraestructure.rest.FileControllerImpl:execute_yolo:47 - Executing yolo training on file 492662957-D-D-2-0-EZ-DragonLance-Compendio-de-Monstruos-Dragonlance-Volumen-Dos-EZ206.pdf in bucket monstrouscompendium
+2026-02-11T20:22:52.927467+0100 | INFO | src.main.infraestructure.yolo.YoloDetectorImpl:train:13 - Detecting monsters

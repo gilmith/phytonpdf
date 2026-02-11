@@ -1,9 +1,11 @@
 from injector import Module, singleton, provider
 
-from src.main.application.service.PdfAnalyzerImpl import PdfAnalyzerImpl
+from src.main.domain.service.storage.FileStoragePort import FileStoragePort
+# Solo interfaces y tipos para anotaciones
+from src.main.domain.service.yolo.YoloDetector import YoloDetector
 from src.main.domain.service.pdf.PdfAnalizerPort import PdfAnalizerPort
-from src.main.infraestructure.storage.FileStorageImpl import FileStorageImpl
-from src.main.application.service.FileApplicationServiceImpl import FileService
+from src.main.application.service.storage.FileApplicationService import FileApplicationService
+
 
 class AppModule(Module):
     def __init__(self, minio_conf):
@@ -12,11 +14,15 @@ class AppModule(Module):
     @singleton
     @provider
     def provide_pdf_analyzer(self) -> PdfAnalizerPort:
+        from src.main.application.service.pdf.PdfAnalyzerImpl import PdfAnalyzerImpl
+
         return PdfAnalyzerImpl()
 
     @singleton
     @provider
-    def provide_file_storage(self, pdf_analyzer: PdfAnalizerPort) -> FileStorageImpl:
+    def provide_file_storage(self, pdf_analyzer: PdfAnalizerPort) -> FileStoragePort:
+        from src.main.infraestructure.storage.FileStorageImpl import FileStorageImpl
+
         return FileStorageImpl(
             self.minio_conf['endpoint'],
             self.minio_conf['access_key'],
@@ -26,5 +32,14 @@ class AppModule(Module):
 
     @singleton
     @provider
-    def provide_file_service(self, storage: FileStorageImpl, pdf_analyzer: PdfAnalyzerImpl) -> FileService:
-        return FileService(storage, pdf_analyzer)
+    def provide_file_service(self, storage: FileStoragePort, pdf_analyzer: PdfAnalizerPort, yolo_detector: YoloDetector) -> FileApplicationService:
+        from src.main.application.service.storage.FileApplicationServiceImpl import FileApplicationServiceImpl
+
+        return FileApplicationServiceImpl(storage, pdf_analyzer, yolo_detector)
+
+    @singleton
+    @provider
+    def provide_yolo_detector(self) -> YoloDetector:
+        from src.main.infraestructure.yolo.YoloDetectorImpl import YoloDetectorImpl
+
+        return YoloDetectorImpl()

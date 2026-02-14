@@ -37,7 +37,7 @@ class PdfAnalyzerImpl(PdfAnalizerPort):
                     else:
                         logger.info(f"No se encontró un párrafo en página {i + 1}")
 
-    def split_in_jpg(self, file_data: bytes, bucket_name: str, file_name: str, zoom: int = 3):
+    def split_in_jpg(self, file_data: bytes, bucket_name: str, file_name: str, zoom: int = 3) -> Path:
         home = Path.home()
         path = home / "pdf_split" / bucket_name / file_name.split(".")[0]
         os.makedirs(path, exist_ok=True)
@@ -47,3 +47,4 @@ class PdfAnalyzerImpl(PdfAnalizerPort):
                 page = doc.load_page(i)
                 pix = page.get_pixmap(matrix=matrix)
                 pix.save(f"{path}/page-{i}.jpg", "jpeg", 100)
+        return path

@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from pathlib import Path
 
 from src.main.domain.model.FileInfo.FileInfoDom import FileInfoDom
 
@@ -16,4 +17,8 @@ class FileStoragePort(ABC):
     @abstractmethod
     def get_file(self, bucket_name, file_name) -> bytes:
         """:return file from bucket"""
+        pass
+
+    @abstractmethod
+    def upload_jpg(self, bucket_name, jpg_path: Path):
         pass

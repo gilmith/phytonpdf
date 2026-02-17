@@ -11,18 +11,31 @@ class YoloDetectorImpl(YoloDetector):
 
     def train(self, bucket_name: str, file_name: str):
         logger.info("Detecting monsters")
-        model = YOLO("yolov8n.pt")
         path_yaml = r"C:\Users\jacobo\PycharmProjects\phytonpdf\src\main\resources\dataset\data.yaml"
+        results_dir = r"C:\Users\jacobo\PycharmProjects\phytonpdf\runs\detect\modelo_add_v1\weights"
+        last_ckpt = os.path.join(results_dir, "last.pt")
+        total_epochs = 40
+        # Si existe last.pt, continuar desde ahí
+        if os.path.exists(last_ckpt):
+            logger.info(f"Cargando checkpoint: {last_ckpt}")
+            model = YOLO(last_ckpt)
+            resume = True
+        else:
+            logger.info("Entrenando desde cero (yolov8n.pt)")
+            model = YOLO("yolov8n.pt")
+            resume = False
+        logger.info(f"Entrenando por {total_epochs} épocas (resume={resume})")
         model.train(
             data=path_yaml,
-            epochs=100,
+            epochs=total_epochs,
             imgsz=1280,
-            batch=16,
+            batch=10,
             name="modelo_add_v1",
             device="cpu",
-            workers=8,  # 0 para evitar problemas de multiprocessing en Windows
-            val=True,  # Habilitar validación
-            fraction=0.8  # 80% para entrenamiento, 20% para validación
+            workers=0,
+            val=True,
+            fraction=0.8,
+            resume=resume
         )
 
     def detect(self, imagen_bytes: bytes):

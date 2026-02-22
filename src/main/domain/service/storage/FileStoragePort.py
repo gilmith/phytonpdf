@@ -1,12 +1,12 @@
 from abc import ABC, abstractmethod
 from pathlib import Path
 
-from src.main.domain.model.FileInfo.FileInfoDom import FileInfoDom
+from src.main.domain.model.FileInfo.FileInfoStorageDom import FileInfoStorageDom
 
 
 class FileStoragePort(ABC):
     @abstractmethod
-    def list_files(self, bucket_name: str) -> list[FileInfoDom]:
+    def list_files(self, bucket_name: str) -> list[FileInfoStorageDom]:
         """:return list of files in bucket"""
         pass
     @abstractmethod

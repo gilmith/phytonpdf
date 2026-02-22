@@ -5,7 +5,7 @@ from minio import Minio, S3Error
 from loguru import logger
 from minio.datatypes import Object
 
-from src.main.domain.model.FileInfo.FileInfoDom import FileInfoDom
+from src.main.domain.model.FileInfo.FileInfoStorageDom import FileInfoStorageDom
 from src.main.domain.model.enum.FileUnit import FileUnit
 from src.main.domain.service.pdf.PdfAnalizerPort import PdfAnalizerPort
 from src.main.domain.service.storage.FileStoragePort import FileStoragePort
@@ -22,11 +22,11 @@ class FileStorageImpl(FileStoragePort):
         )
         self.pdf_analyzer = pdf_analyzer
 
-    def list_files(self, bucket_name: str) -> list[FileInfoDom]:
+    def list_files(self, bucket_name: str) -> list[FileInfoStorageDom]:
         files = self.client.list_objects(bucket_name)
         files_info = []
         for file in files:
-            files_info.append(FileInfoDom(file.object_name, file.size, FileUnit.BYTES.value, file.content_type, file.last_modified, self._analyze_file(bucket_name, file)))
+            files_info.append(FileInfoStorageDom(file.object_name, file.size, FileUnit.BYTES.value, file.content_type, file.last_modified))
         return files_info
 
     def insertData(self, bucket_name, file_name):
@@ -55,6 +55,7 @@ class FileStorageImpl(FileStoragePort):
         except S3Error as e:
             logger.error(e)
             raise
+
     def upload_jpg(self, bucket_name, jpg_path: Path):
         logger.info(f"Starting upload process. Bucket: {bucket_name}, Path: {jpg_path}")
         if self._existsBucketName(bucket_name):

@@ -1,3 +1,6 @@
+import os
+
+import cv2
 from loguru import logger
 
 from src.main.application.service.storage.FileApplicationService import FileApplicationService
@@ -31,4 +34,17 @@ class FileApplicationServiceImpl(FileApplicationService):
         files_in_bucket = self.storage.list_files(bucket_name)
         for file in files_in_bucket:
             file_data = self.storage.get_file(bucket_name, file.file_name)
-            self.yolo_detector.detect(file_data)
+            list_result = self.yolo_detector.detect(file_data)
+            home_dir = os.path.expanduser("~")
+            results_dir = os.path.join(home_dir, "yolo_results")
+            os.makedirs(results_dir, exist_ok=True)
+            for i, r in enumerate(list_result):
+                im_orig = r.orig_img
+                for j, box in enumerate(r.boxes):
+                    x1, y1, x2, y2 = map(int, box.xyxy[0])
+                    cls = int(box.cls[0])
+                    name = r.names[cls]
+                    crop = im_orig[y1:y2, x1:x2]
+                    file_name = f"{results_dir}/{name}_{i}_{j}.jpg"
+                    cv2.imwrite(file_name, crop)
+                    logger.info(f"Guardado: {file_name}")

@@ -1,8 +1,10 @@
 from loguru import logger
 from ultralytics import YOLO
 
+from src.main.infraestructure.config.YoloInit import yolo
 from src.main.domain.service.yolo.YoloDetector import YoloDetector
 import os
+
 
 class YoloDetectorImpl(YoloDetector):
 
@@ -40,17 +42,13 @@ class YoloDetectorImpl(YoloDetector):
 
     def detect(self, imagen_bytes: bytes):
         logger.info("Detecting monsters")
-        model = YOLO(r"C:\Users\jacobo\PycharmProjects\phytonpdf\runs\detect\modelo_add_v112\weights\best.pt")
         temp_image_path = "temp_detect_image.jpg"
         with open(temp_image_path, "wb") as f:
             f.write(imagen_bytes)
-        results = model.predict(temp_image_path, device="cpu", conf=0.25)
-        for r in results:
-            logger.info(r.boxes.xyxy)
-            logger.info(r.names)
-            for box in r.boxes:
-                logger.info(box)
-                logger.info(box.cls)
-                logger.info(box.conf)
+
+        if yolo.model is None:
+             raise Exception("YOLO model not initialized in ServiceRegistry")
+
+        results = yolo.model.predict(temp_image_path, device="cpu", conf=0.50, show=False)
         os.remove(temp_image_path)
         return results

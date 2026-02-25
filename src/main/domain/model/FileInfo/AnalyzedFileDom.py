@@ -2,13 +2,11 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional
 
-from pydantic import Field
+from pydantic import BaseModel, Field
 
-@dataclass
-class FileInfoDom:
-    file_name: str
-    type_file: str
-    content: bytes
+
+class AnalyzedFileDom(BaseModel):
+    monster_name: str
     url: Optional[str] = None
     analyze_date: datetime = Field(default_factory=datetime.now)
     success: bool = False

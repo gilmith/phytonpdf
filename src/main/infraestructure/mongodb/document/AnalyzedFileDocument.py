@@ -1,12 +1,12 @@
-from pydantic import Field
+from mongoengine import Document, StringField, BooleanField, DateTimeField
 from datetime import datetime
-from beanie import Document
-
 
 class AnalyzedFileDocument(Document):
-    file_name: str
-    type: str
-    url: str
-    analyze_date: datetime = Field(default_factory=datetime.now)
-    success: bool
+    # MongoEngine usa 'meta' para el nombre de la colección, no 'Settings'
+    meta = {'collection': 'analyzed_files'}
 
+    # Los campos deben ser instancias de los campos de mongoengine
+    monster_name = StringField(required=True)
+    url = StringField()
+    analyze_date = DateTimeField(default=datetime.now)
+    success = BooleanField(default=False)

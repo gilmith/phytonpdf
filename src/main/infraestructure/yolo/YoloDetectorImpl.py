@@ -20,7 +20,7 @@ class YoloDetectorImpl(YoloDetector):
         # Si existe last.pt, continuar desde ahí
         if os.path.exists(last_ckpt):
             logger.info(f"Cargando checkpoint: {last_ckpt}")
-            model = YOLO(last_ckpt)
+            model = YOLO(last_ckpt,)
             resume = True
         else:
             logger.info("Entrenando desde cero (yolov8n.pt)")
@@ -49,6 +49,6 @@ class YoloDetectorImpl(YoloDetector):
         if yolo.model is None:
              raise Exception("YOLO model not initialized in ServiceRegistry")
 
-        results = yolo.model.predict(temp_image_path, device="cpu", conf=0.50, show=False)
+        results = yolo.model.predict(temp_image_path, device="cpu", conf=0.75, show=False)
         os.remove(temp_image_path)
         return results

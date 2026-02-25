@@ -1,3 +1,5 @@
+import asyncio
+
 from flask import jsonify, Blueprint
 from injector import inject
 from loguru import logger

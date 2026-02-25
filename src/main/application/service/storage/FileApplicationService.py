@@ -16,5 +16,5 @@ class FileApplicationService(ABC):
     def execute_yolo(self, bucket_name, file_name):
         pass
 
-    def execute_detect(self, bucket_name):
+    async def execute_detect(self, bucket_name):
         pass

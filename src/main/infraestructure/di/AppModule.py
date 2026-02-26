@@ -1,5 +1,6 @@
 from injector import Module, singleton, provider
 
+from src.main.domain.service.ocr.OcrService import OcrService
 from src.main.domain.service.dao.FileRepository import FileRepository
 from src.main.domain.service.storage.FileStoragePort import FileStoragePort
 # Solo interfaces y tipos para anotaciones
@@ -35,17 +36,22 @@ class AppModule(Module):
     @provider
     def provide_file_service(self, storage: FileStoragePort, pdf_analyzer: PdfAnalizerPort, yolo_detector: YoloDetector, file_repository: FileRepository) -> FileApplicationService:
         from src.main.application.service.storage.FileApplicationServiceImpl import FileApplicationServiceImpl
-
         return FileApplicationServiceImpl(storage, pdf_analyzer, yolo_detector, file_repository)
 
     @singleton
     @provider
-    def provide_yolo_detector(self) -> YoloDetector:
+    def provide_yolo_detector(self, file_repository: FileRepository, ocr: OcrService) -> YoloDetector:
         from src.main.infraestructure.yolo.YoloDetectorImpl import YoloDetectorImpl
-        return YoloDetectorImpl()
+        return YoloDetectorImpl(file_repository, ocr)
 
     @singleton
     @provider
     def provide_file_repository(self) -> FileRepository:
         from src.main.infraestructure.repository.FileRepositoryImpl import FileRepositoryImpl
         return FileRepositoryImpl()
+
+    @singleton
+    @provider
+    def provide_ocr(self) -> OcrService:
+        from src.main.infraestructure.ocr.OcrServiceImpl import OcrServiceImpl
+        return OcrServiceImpl()

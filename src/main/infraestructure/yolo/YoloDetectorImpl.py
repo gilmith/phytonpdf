@@ -24,7 +24,7 @@ class YoloDetectorImpl(YoloDetector):
     def train(self, bucket_name: str, file_name: str):
         logger.info("Detecting monsters")
         path_yaml = r"C:\Users\jacobo\PycharmProjects\phytonpdf\src\main\resources\dataset\data.yaml"
-        results_dir = r"C:\Users\jacobo\PycharmProjects\phytonpdf\runs\detect\modelo_add_v1\weights"
+        results_dir = r"C:\Users\jacobo\PycharmProjects\phytonpdf\runs\detect\modelo_add_v2\weights"
         last_ckpt = os.path.join(results_dir, "last.pt")
         total_epochs = 40
         # Si existe last.pt, continuar desde ahí
@@ -33,8 +33,8 @@ class YoloDetectorImpl(YoloDetector):
             model = YOLO(last_ckpt,)
             resume = True
         else:
-            logger.info("Entrenando desde cero (yolov8n.pt)")
-            model = YOLO("yolov8n.pt")
+            logger.info("Entrenando desde cero (yolov26n.pt)")
+            model = YOLO("yolo26n.pt")
             resume = False
         logger.info(f"Entrenando por {total_epochs} épocas (resume={resume})")
         model.train(

@@ -24,9 +24,9 @@ class YoloDetectorImpl(YoloDetector):
     def train(self, bucket_name: str, file_name: str):
         logger.info("Detecting monsters")
         path_yaml = r"C:\Users\jacobo\PycharmProjects\phytonpdf\src\main\resources\dataset\data.yaml"
-        results_dir = r"C:\Users\jacobo\PycharmProjects\phytonpdf\runs\detect\modelo_add_v2\weights"
+        results_dir = r"C:\Users\jacobo\PycharmProjects\phytonpdf\runs\detect\modelo_add_v12\weights"
         last_ckpt = os.path.join(results_dir, "last.pt")
-        total_epochs = 40
+        total_epochs = 100
         # Si existe last.pt, continuar desde ahí
         if os.path.exists(last_ckpt):
             logger.info(f"Cargando checkpoint: {last_ckpt}")
@@ -41,7 +41,7 @@ class YoloDetectorImpl(YoloDetector):
             data=path_yaml,
             epochs=total_epochs,
             imgsz=1280,
-            batch=10,
+            batch=5,
             name="modelo_add_v1",
             device="cpu",
             workers=0,

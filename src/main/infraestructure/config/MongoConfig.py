@@ -1,15 +1,19 @@
-from pymongo import MongoClient
-class MongoDB:
-    def __init__(self, app=None):
-        self.client = None
-        if app is not None:
-            self.init_app(app)
 
-    def init_app(self, app):
-        self.client = MongoClient("mongodb://localhost:27017/adyd",
-            maxPoolSize=20,
-            minPoolSize=5,
-            serverSelectionTimeoutMS=5000
+from mongoengine import connect
+
+class MongoConfig:
+
+    @staticmethod
+    def init_db():
+        # Configuramos el Pool al conectar
+        connect(
+            db="adyd",
+            host="mongodb://localhost:27017",
+            username="root",
+            password="pass4root",
+            authentication_source="admin",
+            # CONFIGURACIÓN DEL POOL:
+            maxPoolSize=50,       # Máximo de conexiones simultáneas
+            minPoolSize=10,       # Mantener siempre 10 conexiones abiertas
+            waitQueueTimeoutMS=5000 # Tiempo máximo de espera por una conexión libre
         )
-
-mongo = MongoDB() # Instancia global vacía

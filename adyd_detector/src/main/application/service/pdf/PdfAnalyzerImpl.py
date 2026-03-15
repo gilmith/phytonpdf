@@ -3,7 +3,7 @@ from pathlib import Path
 
 import fitz
 
-from src.main.domain.service.pdf.PdfAnalizerPort import PdfAnalizerPort
+from main.domain.service.pdf.PdfAnalizerPort import PdfAnalizerPort
 from loguru import logger
 import re
 

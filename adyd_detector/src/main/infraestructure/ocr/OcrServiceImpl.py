@@ -3,7 +3,7 @@ import easyocr
 import cv2
 from loguru import logger
 
-from src.main.domain.service.ocr.OcrService import OcrService
+from main.domain.service.ocr.OcrService import OcrService
 
 
 class OcrServiceImpl(OcrService):

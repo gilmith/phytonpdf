@@ -1,9 +1,9 @@
 from loguru import logger
-from src.main.domain.service.dao.FileRepository import FileRepository
-from src.main.application.service.storage.FileApplicationService import FileApplicationService
-from src.main.domain.service.yolo.YoloDetector import YoloDetector
-from src.main.domain.service.pdf.PdfAnalizerPort import PdfAnalizerPort
-from src.main.domain.service.storage.FileStoragePort import FileStoragePort
+from main.domain.service.dao.FileRepository import FileRepository
+from main.application.service.storage.FileApplicationService import FileApplicationService
+from main.domain.service.yolo.YoloDetector import YoloDetector
+from main.domain.service.pdf.PdfAnalizerPort import PdfAnalizerPort
+from main.domain.service.storage.FileStoragePort import FileStoragePort
 
 
 class FileApplicationServiceImpl(FileApplicationService):

@@ -9,6 +9,6 @@ class YoloInit:
             self.init_app(app)
 
     def init_app(self, app):
-        self.model = YOLO(r"C:\Users\jacobo\PycharmProjects\phytonpdf\runs\detect\modelo_add_v1\weights\best.pt")
+        self.model = YOLO(r"../runs/detect/modelo_add_v1/weights/best.pt")
 
 yolo = YoloInit()

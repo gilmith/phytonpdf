@@ -52,4 +52,4 @@ pdf_split/
 .dmypy.json
 dmypy.json
 
-src/main/resources/dataset
+adyd_detector/src/main/resources/dataset

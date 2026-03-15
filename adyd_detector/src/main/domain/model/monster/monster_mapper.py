@@ -1,5 +1,5 @@
-from src.main.domain.model.monster.Monster import Monster
-from src.main.infraestructure.documents.MonsterDocument import MonsterDocument
+from main.domain.model.monster.Monster import Monster
+from main.infraestructure.documents.MonsterDocument import MonsterDocument
 
 def monster_to_document(monster: Monster, _id: str = None) -> MonsterDocument:
     """

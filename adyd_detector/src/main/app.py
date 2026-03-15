@@ -15,8 +15,7 @@ def main():
     logger = get_logger()
     logger.info('Configuración de logger cargada')
     minio_conf = config['minio']
-    app = FlaskAppFactory().create_app()
-    FlaskInjector(app=app, modules=[AppModule(minio_conf)])
+    app = FlaskAppFactory().create_app(minio_conf)
     logger.info('Aplicación Flask iniciada')
     app.run(host='0.0.0.0', port=5000)
 

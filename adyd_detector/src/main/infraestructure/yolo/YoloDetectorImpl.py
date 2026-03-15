@@ -6,12 +6,12 @@ from loguru import logger
 from ultralytics import YOLO
 from ultralytics.engine.results import Results
 
-from src.main.domain.model.FileInfo.AnalyzedFileDom import AnalyzedFileDom
-from src.main.domain.model.FileInfo.FileInfoDom import FileInfoDom
-from src.main.domain.service.dao.FileRepository import FileRepository
-from src.main.domain.service.ocr.OcrService import OcrService
-from src.main.infraestructure.config.YoloInit import yolo
-from src.main.domain.service.yolo.YoloDetector import YoloDetector
+from main.domain.model.FileInfo.AnalyzedFileDom import AnalyzedFileDom
+from main.domain.model.FileInfo.FileInfoDom import FileInfoDom
+from main.domain.service.dao.FileRepository import FileRepository
+from main.domain.service.ocr.OcrService import OcrService
+from main.infraestructure.config.YoloInit import yolo
+from main.domain.service.yolo.YoloDetector import YoloDetector
 import os
 
 
@@ -23,8 +23,8 @@ class YoloDetectorImpl(YoloDetector):
 
     def train(self, bucket_name: str, file_name: str):
         logger.info("Detecting monsters")
-        path_yaml = r"C:\Users\jacobo\PycharmProjects\phytonpdf\src\main\resources\dataset\data.yaml"
-        results_dir = r"C:\Users\jacobo\PycharmProjects\phytonpdf\runs\detect\modelo_add_v12\weights"
+        path_yaml = r"/main/resources/dataset/data.yaml"
+        results_dir = r"/runs/detect/modelo_add_v12/weights"
         last_ckpt = os.path.join(results_dir, "last.pt")
         total_epochs = 100
         # Si existe last.pt, continuar desde ahí

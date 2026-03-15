@@ -1,8 +1,8 @@
 from loguru import logger
 
-from src.main.domain.model.FileInfo.AnalyzedFileDom import AnalyzedFileDom
-from src.main.domain.service.dao.FileRepository import FileRepository
-from src.main.infraestructure.mongodb.document.AnalyzedFileDocument import AnalyzedFileDocument
+from main.domain.model.FileInfo.AnalyzedFileDom import AnalyzedFileDom
+from main.domain.service.dao.FileRepository import FileRepository
+from main.infraestructure.mongodb.document.AnalyzedFileDocument import AnalyzedFileDocument
 
 class FileRepositoryImpl(FileRepository):
 

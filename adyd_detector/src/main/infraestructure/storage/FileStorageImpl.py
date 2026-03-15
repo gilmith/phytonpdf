@@ -5,10 +5,10 @@ from minio import Minio, S3Error
 from loguru import logger
 from minio.datatypes import Object
 
-from src.main.domain.model.FileInfo.FileInfoStorageDom import FileInfoStorageDom
-from src.main.domain.model.enum.FileUnit import FileUnit
-from src.main.domain.service.pdf.PdfAnalizerPort import PdfAnalizerPort
-from src.main.domain.service.storage.FileStoragePort import FileStoragePort
+from main.domain.model.FileInfo.FileInfoStorageDom import FileInfoStorageDom
+from main.domain.model.enum.FileUnit import FileUnit
+from main.domain.service.pdf.PdfAnalizerPort import PdfAnalizerPort
+from main.domain.service.storage.FileStoragePort import FileStoragePort
 
 class FileStorageImpl(FileStoragePort):
 

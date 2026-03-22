@@ -25,15 +25,7 @@ class FileApplicationServiceImpl(FileApplicationService):
         jpg_path = self.pdf_analyzer.split_in_jpg(file_data, bucket_name, file_name)
         self.storage.upload_jpg(bucket_name + "jpg", jpg_path)
 
-    def execute_yolo(self, bucket_name, file_name):
-        self.yolo_detector.train(bucket_name, file_name)
 
-    def execute_detect(self, bucket_name):
-        logger.info("Detecting...")
-        files_in_bucket = self.storage.list_files(bucket_name)
-        for file in files_in_bucket:
-            file_data = self.storage.get_file(bucket_name, file.file_name)
-            self.yolo_detector.analyze_resultset(self.yolo_detector.detect(file_data), file.file_name)
 
 
 

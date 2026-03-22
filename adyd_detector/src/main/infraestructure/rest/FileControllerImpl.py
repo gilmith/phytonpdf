@@ -58,23 +58,3 @@ class FileControllerImpl:
             return jsonify({"error": str(e)}), 500
 
 
-    @inject
-    def execute_yolo(self, bucket_name: str, file_name: str):
-        logger.info(f"Executing yolo training on file {file_name} in bucket {bucket_name}")
-        try:
-            thread = threading.Thread(target=self.file_service.execute_yolo, args=(bucket_name, file_name))
-            thread.start()
-            return jsonify({"message": "YOLO training started in background"}), 201
-        except Exception as e:
-            logger.error(e)
-            return jsonify({"error": str(e)}), 500
-
-
-    @inject
-    def execute_detect(self, bucket_name: str):
-        try:
-            self.file_service.execute_detect(bucket_name)
-            return jsonify({"message": "Detect started successfully"}), 201
-        except Exception as e:
-            logger.error(e)
-            return jsonify({"error": str(e)}), 500

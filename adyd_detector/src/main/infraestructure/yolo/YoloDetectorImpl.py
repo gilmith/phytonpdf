@@ -8,6 +8,7 @@ from ultralytics.engine.results import Results
 
 from main.domain.model.FileInfo.AnalyzedFileDom import AnalyzedFileDom
 from main.domain.model.FileInfo.FileInfoDom import FileInfoDom
+from main.domain.model.yolo.DetectDom import DetectDom
 from main.domain.service.dao.FileRepository import FileRepository
 from main.domain.service.ocr.OcrService import OcrService
 from main.infraestructure.config.YoloInit import yolo
@@ -50,16 +51,16 @@ class YoloDetectorImpl(YoloDetector):
             resume=resume
         )
 
-    def detect(self, imagen_bytes: bytes) -> List[Results]:
+    def detect(self, imagen_bytes: bytes, detect_dom: DetectDom) -> List[Results]:
         logger.info("Detecting monsters")
         temp_image_path = "temp_detect_image.jpg"
         with open(temp_image_path, "wb") as f:
             f.write(imagen_bytes)
-
         if yolo.model is None:
              raise Exception("YOLO model not initialized in ServiceRegistry")
-
-        results = yolo.model.predict(temp_image_path, device="cpu", conf=0.75, show=False)
+        results = yolo.model.predict(temp_image_path, device="cpu", conf=0.75, show=detect_dom.show,
+                                     save=detect_dom.save, show_labels= detect_dom.show_labels,
+                                     show_boxes=detect_dom.show_boxes)
         os.remove(temp_image_path)
         return results
 

@@ -3,11 +3,13 @@ from typing import List
 
 from ultralytics.engine.results import Results
 
+from main.domain.model.yolo.DetectDom import DetectDom
+
 
 class YoloDetector(ABC):
 
     @abstractmethod
-    def detect(self, imagen_bytes: bytes) -> List[Results]:
+    def detect(self, imagen_bytes: bytes, detect_dom: DetectDom) -> List[Results]:
         pass
 
     @abstractmethod

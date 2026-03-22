@@ -13,8 +13,3 @@ class FileApplicationService(ABC):
     def split_file(self, bucket_name, file_name):
         pass
 
-    def execute_yolo(self, bucket_name, file_name):
-        pass
-
-    async def execute_detect(self, bucket_name):
-        pass

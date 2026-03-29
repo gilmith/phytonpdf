@@ -19,12 +19,22 @@ class DetectDom(BaseModel):
         return self.show or self.save
 
     @classmethod
-    def from_dto(cls, dto: DetectDto, file_name: str, bucket_name :str) -> Self:
+    def from_dto(cls, dto: DetectDto | dict, file_name: str, bucket_name :str) -> Self:
         """
         Constructor alternativo que mapea el DTO plano al DOM.
         """
         # Extraemos los datos del DTO (que usa propiedades con guion bajo internamente)
         # Usamos los getters públicos del DTO que ya tienes definidos
+        if isinstance(dto, dict):
+            return cls(
+                file_name=file_name,
+                bucket_name=bucket_name,
+                show=dto.get('show', False),
+                save=dto.get('save', False),
+                show_boxes=dto.get('show_boxes', False),
+                show_labels=dto.get('show_labels', False),
+            )
+        # Si en algún momento Connexion sí devuelve el objeto tipado
         return cls(
             file_name=file_name,
             bucket_name=bucket_name,

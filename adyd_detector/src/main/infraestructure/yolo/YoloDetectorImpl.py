@@ -1,19 +1,24 @@
+import io
+import threading
 from typing import List
 
 import cv2
 import numpy as np
 from loguru import logger
+from PIL import Image
 from ultralytics import YOLO
 from ultralytics.engine.results import Results
 
-from main.domain.model.FileInfo.AnalyzedFileDom import AnalyzedFileDom
-from main.domain.model.FileInfo.FileInfoDom import FileInfoDom
-from main.domain.model.yolo.DetectDom import DetectDom
-from main.domain.service.dao.FileRepository import FileRepository
-from main.domain.service.ocr.OcrService import OcrService
-from main.infraestructure.config.YoloInit import yolo
-from main.domain.service.yolo.YoloDetector import YoloDetector
+from src.main.domain.model.FileInfo.AnalyzedFileDom import AnalyzedFileDom
+from src.main.domain.model.FileInfo.FileInfoDom import FileInfoDom
+from src.main.domain.model.yolo.DetectDom import DetectDom
+from src.main.domain.service.dao.FileRepository import FileRepository
+from src.main.domain.service.ocr.OcrService import OcrService
+from src.main.infraestructure.config.YoloInit import yolo
+from src.main.domain.service.yolo.YoloDetector import YoloDetector
 import os
+
+_yolo_lock = threading.Lock()  # ← lock global a nivel de módulo
 
 
 class YoloDetectorImpl(YoloDetector):
@@ -53,15 +58,16 @@ class YoloDetectorImpl(YoloDetector):
 
     def detect(self, imagen_bytes: bytes, detect_dom: DetectDom) -> List[Results]:
         logger.info("Detecting monsters")
-        temp_image_path = "temp_detect_image.jpg"
-        with open(temp_image_path, "wb") as f:
-            f.write(imagen_bytes)
+
         if yolo.model is None:
-             raise Exception("YOLO model not initialized in ServiceRegistry")
-        results = yolo.model.predict(temp_image_path, device="cpu", conf=0.75, show=detect_dom.show,
-                                     save=detect_dom.save, show_labels= detect_dom.show_labels,
-                                     show_boxes=detect_dom.show_boxes)
-        os.remove(temp_image_path)
+            raise Exception("YOLO model not initialized in ServiceRegistry")
+
+        pil_img = Image.open(io.BytesIO(imagen_bytes)).convert("RGB")
+        img = np.ascontiguousarray(cv2.cvtColor(np.array(pil_img), cv2.COLOR_RGB2BGR))
+
+        with _yolo_lock:
+            results = yolo.model.predict(img, device="cpu", conf=0.75, show=False)
+
         return results
 
     def analyze_resultset(self, list_result, file_name: str):

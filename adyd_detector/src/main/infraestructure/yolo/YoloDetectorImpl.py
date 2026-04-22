@@ -4,7 +4,7 @@ from typing import List
 
 import cv2
 import numpy as np
-from loguru import logger
+from loguru import logger as log
 from PIL import Image
 from ultralytics import YOLO
 from ultralytics.engine.results import Results
@@ -57,7 +57,7 @@ class YoloDetectorImpl(YoloDetector):
         )
 
     def detect(self, imagen_bytes: bytes, detect_dom: DetectDom) -> List[Results]:
-        logger.info("Detecting monsters")
+        log.info("Detecting monsters")
 
         if yolo.model is None:
             raise Exception("YOLO model not initialized in ServiceRegistry")
@@ -66,8 +66,9 @@ class YoloDetectorImpl(YoloDetector):
         img = np.ascontiguousarray(cv2.cvtColor(np.array(pil_img), cv2.COLOR_RGB2BGR))
 
         with _yolo_lock:
-            results = yolo.model.predict(img, device="cpu", conf=0.75, show=False)
-
+            results = yolo.model.predict(img, device="cpu", conf=detect_dom.confidence_threshold, show=detect_dom.show
+                                         ,save=detect_dom.save, show_boxes=detect_dom.show_boxes, show_labels=detect_dom.show_labels)
+        log.info("Detectado monstruos {}", results)
         return results
 
     def analyze_resultset(self, list_result, file_name: str):
@@ -83,20 +84,28 @@ class YoloDetectorImpl(YoloDetector):
                 type_file = r.names[cls]
                 crop = np.ascontiguousarray(im_orig[y1:y2, x1:x2])
                 _, crop_bytes = cv2.imencode('.jpg', crop)
-                logger.debug(f"Detección [{i},{j}] → clase='{type_file}' | bbox=({x1},{y1},{x2},{y2})")
                 list_file_analyzed.append(FileInfoDom(file_name=file_name, type_file=type_file, content=crop_bytes.tobytes()))
         # Una vez recorridos todos los resultados, analiza la lista completa
         self._analyze_list_result(list_file_analyzed)
 
     def _analyze_list_result(self, list_file_analyzed: list[FileInfoDom]):
-        logger.info("Analyzing...")
+        log.info("Analyzing...")
         success = False
         index = 0
         while not success and index < len(list_file_analyzed) and len(list_file_analyzed) > 0:
             if list_file_analyzed[index].type_file == "nombre":
-                logger.info("Successful detection!!")
+                log.info("Successful detection!!")
                 success = True
                 nombre = self.ocr.analyze_nombre(list_file_analyzed[index].content)
                 self.file_repository.insertOne(AnalyzedFileDom(monster_name=nombre, success=True))
+            if list_file_analyzed[index].type_file == "texto":
+                log.info("Successful detection of texto!!")
+                #self.file_repository.insertOne(AnalyzedFileDom(monster_name=list_file_analyzed[index].content, success=True))
+            if list_file_analyzed[index].type_file == "imagen":
+                log.info("Successful detection of imagen!!")
+
+            if list_file_analyzed[index].type_file == "tabla principal":
+                log.info("Successful detection of tabla principal!!")
+
             index += 1
         pass

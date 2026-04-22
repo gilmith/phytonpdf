@@ -18,7 +18,7 @@ class YoloApplicationServiceImpl(YoloApplicationService):
     log.info("Detecting labels in image {} in bucket {}", detect_dom.file_name, detect_dom.bucket_name)
     files_in_bucket = self.storage.list_files(detect_dom.bucket_name)
     for file in files_in_bucket:
-        log.info("Initializing detect")
+        log.info("Initializing detect {}", file.file_name)
         file_data = self.storage.get_file(detect_dom.bucket_name, file.file_name)
         data = self.yolo_detector.detect(file_data, detect_dom)
         self.yolo_detector.analyze_resultset(data, file.file_name)

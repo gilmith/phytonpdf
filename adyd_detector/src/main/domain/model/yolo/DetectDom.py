@@ -12,6 +12,7 @@ class DetectDom(BaseModel):
     save: bool = Field(default=False, description="Guarda los resultados en disco")
     show_labels: bool = Field(default=False) # Ejemplo de alias si el dominio interno difiere
     show_boxes: bool = Field(default=False)
+    confidence_threshold: float = Field()
 
     # Aquí puedes añadir métodos de lógica de negocio (Lo que no tiene el DTO)
     def should_render(self) -> bool:
@@ -33,6 +34,7 @@ class DetectDom(BaseModel):
                 save=dto.get('save', False),
                 show_boxes=dto.get('show_boxes', False),
                 show_labels=dto.get('show_labels', False),
+                confidence_threshold=dto.get('confidence', 0.0)
             )
         # Si en algún momento Connexion sí devuelve el objeto tipado
         return cls(
@@ -41,5 +43,10 @@ class DetectDom(BaseModel):
             show=dto.show,
             save=dto.save,
             show_boxes=dto.show_boxes,
-            show_labels=dto.show_labels
+            show_labels=dto.show_labels,
+            confidence_threshold=dto.confidence,
         )
+
+    @property
+    def bucket_name(self):
+        return self._bucket_name
